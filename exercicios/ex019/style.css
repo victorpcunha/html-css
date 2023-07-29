@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* ID --> Identificado como # */
+/* CLASS --> Identificado como . */
+
+
+body {
+    background-color: rgb(142, 241, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1  {
+    color: rgb(11, 136, 94);
+}
+
+h1#titulo-principal {
+    background-color: rgb(11, 136, 94);
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: rgb(65, 126, 105);
+}
+
+.basico {
+   color: rgb(65, 126, 105);
+}
+
+.intermediario {
+    color: rgb(69, 65, 126);
+}
+
+.avancado {
+    color: rgb(126, 65, 88);
+}

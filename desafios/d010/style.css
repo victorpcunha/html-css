@@ -1,0 +1,111 @@
+/* Regra para caracteres especiais */
+@charset "UTF-8";
+
+/* Regra para remover Margens, Preenchimentos e Bordas definidos pelos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Importação de Fontes */
+@font-face {
+    font-family: idroid, sans-serif;
+    src: url(fontes\idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+/* Início configuração HEADER */
+
+header {
+    background-image: linear-gradient(to bottom, #3DDB83, #185433);
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+header > h1 {
+    margin: 20px;
+}
+header > p {
+    padding: 20px;
+}
+
+nav {
+    text-align: left;
+    padding: 2px;
+    margin-bottom: -25px;
+    margin-left: -25px;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/* Término configuração HEADER */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #84E1AD;
+}
+
+section {
+    background-color: white;
+    text-indent: 25px;
+
+    padding: 0px 30px 30px 30px;
+    margin: 0px 120px 30px 120px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section > h1 {
+    padding-top: 20px;
+}
+
+h1#titulos-idroid {
+    font-family: idroid, sans-serif;
+    color: #185433;
+}
+
+h1.titulos-idroid {
+    font-family: idroid, sans-serif;
+    color: #185433;
+    background-image: linear-gradient(to right, #C0E6D1, #FCFEFD );
+}
+
+h1.extra {
+    background-color: #2FA866;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.extra-conteudo {
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+p#extra {
+    padding: 15px 15px;
+}
+
+section > p {
+    padding: 20px;
+}
