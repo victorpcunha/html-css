@@ -2,5 +2,3 @@
  Curos HTML e CSS
 
 Estou aprendendo a utilizar o GitHub.
-
-'theme: minimal'
