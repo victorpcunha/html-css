@@ -41,10 +41,9 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.493);
+    min-height: 150px;
+    padding-top: 40px;
 
-    height: 150px;
-    width: 100%;
-    padding-top: 30px;
 }
 
 header > h1 {
@@ -52,24 +51,26 @@ header > h1 {
     font-family: var(--font-destaque);
     font-size: 3em;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 
 header > p {
-    color: white;
+    font-family: var(--font-padrao);
     font-size: 1.2em;
-    padding: 30px 30px 0px 30px;
-
+    color: white;
+    max-width: 600px;
+    padding: 0px 10px 30px 10px;
+    margin: auto;
 }
 
 nav {
     background-color: var(--cor5);
-    text-align: center;
-    padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+    padding-bottom: 10px;
 }
 
 nav > a {
-        padding: 10px;
+        padding: 10px 10px 10px 10px;
         text-decoration: none;
         color: white;
         font-weight: bold;
@@ -212,4 +213,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
+} 
