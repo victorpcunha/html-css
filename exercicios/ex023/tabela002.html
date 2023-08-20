@@ -10,6 +10,7 @@
             border-collapse: collapse;
             padding: 10px;
             width: 500px;
+            position: relative;
         }
 
         th {
@@ -21,6 +22,23 @@
         th, td {
             padding: 10px;
             border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+        }
+
+        caption {
+            background-color: gray;
+            font-size: 1.5em;
+            color: white;
+            padding: 10px;
+
         }
 
         tfoot {
@@ -37,6 +55,7 @@
     <h1>Uso de Tabelas Grandes</h1>
     <!-- 
         table
+            caption (legenda)
             thead
                 tr
                     th
@@ -49,10 +68,11 @@
      -->
 
      <table>
+        <caption>População das Unidades Federativas</caption> 
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -167,7 +187,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num">203 062 512</td>
             </tr>
         </tfoot>
